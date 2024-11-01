@@ -1,5 +1,4 @@
 .composition {
-    background-image: url("img/bg.jpg");
     position: absolute;
     width: 600px;
     height: 400px;
@@ -28,7 +27,7 @@
     position: absolute;
     bottom: 30px;
     left: 100px;
-    z-index: 4;
+    z-index: 0;
 }
 
 .spaceship {

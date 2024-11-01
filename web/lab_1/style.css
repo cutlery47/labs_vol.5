@@ -5,6 +5,10 @@ body {
     line-height: 1.5;
 }
 
+.some {
+    size: 30px;
+}
+
 .title {
     size: 40px;
     color: #f03333;

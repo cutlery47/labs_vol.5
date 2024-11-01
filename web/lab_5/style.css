@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+}
+
+.page-carcass {
+    display: flex;
+    flex-flow: column;
+    height: calc(100vh - 100px);
+}
+
+/* HEADER SECTION */
+
+.page-carcass .carcass-header {
+    display: flex;
+    flex-flow: row;
+    height: 15%;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.carcass-header .header-logo {
+    background-color:pink;
+    width: 30%;
+    height: 100%;
+}
+
+.carcass-header .header-buttons {
+    background-color: #fff59d;
+    width: 70%;
+    height: 100%;
+}
+
+/* COMMERTIAL SECTION */
+
+.page-carcass .carcass-commertial {
+    background-color: yellowgreen;
+    height: 25%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* BODY SECTION */
+
+.page-carcass .carcass-body {
+    display: flex;
+    flex-flow: row;
+    height: 35%;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.carcass-body .carcass-feed {
+    background-color: orange;
+    height: 100%;
+    width: 40%;
+}
+
+.carcass-body .carcass-smth {
+    background-color: rgb(112, 35, 255);
+    height: 100%;
+    width: 60%;
+}
+
+/* FOOTER SECTION */
+
+.page-carcass .carcass-footer {
+    display: flex;
+    flex-flow: row;
+    height: 25%;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.carcass-footer .footer-newsletter {
+    height: 100%;
+    width: 40%;
+    background-color: rgb(255, 0, 98);
+}
+
+.carcass-footer .footer-follow {
+    height: 100%;
+    width: 20%;
+    background-color: lightskyblue;
+}
+
+.carcass-footer .footer-why {
+    height: 100%;
+    width: 20%;
+    background-color:  orange;
+}
+
+.carcass-footer .footer-address {
+    height: 100%;
+    width: 20%;
+    background-color: rgb(255, 120, 42);
+}
+
+.page-footer {
+    height: 100px;
+    background-color: rgb(56, 56, 56);
+}
